@@ -1,0 +1,13 @@
+.add-student {
+  .form-group {
+    max-width: 300px;
+    width: 300px;
+  }
+
+  form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,42 @@
+.Student {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.student-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.student-image {
+  width: 100px;
+  max-height: 80px;
+  margin-top: 5px;
+  padding-top: 20px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+  max-width: fit-content !important;
+  span {
+    margin: 10px 0px;
+  }
+}
+
+.image-container {
+  max-width: 100px !important;
+}
+
+.student-container {
+}
